@@ -10,7 +10,7 @@ local function PoliceCall()
     if chance == 2 then
         local data = exports['cd_dispatch']:GetPlayerInfo()
         TriggerServerEvent('cd_dispatch:AddNotification', {
-            job_table = {'police', }, 
+            job_table = {'police', 'sheriff', }, 
             coords = data.coords,
             title = 'Suspicious Person',
             message = 'A '..data.sex..' was just in my pawn shop and seems to be selling illegal items, im at  '..data.street.. ' please hurry',
