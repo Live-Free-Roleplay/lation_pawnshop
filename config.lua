@@ -47,11 +47,18 @@ Config.Shops = {
             -- What items can be sold here
             -- Any item not in this list, cannot be sold here
             -- ['itemSpawnName'] = { label = 'Item Name', price = sellPrice }
-            ['water'] = { label = 'Water', price = 50 },
-            ['panties'] = { label = 'Knickers', price = 10 },
-            ['lockpick'] = { label = 'Lockpick', price = 25 },
-            ['phone'] = { label = 'Phone', price = 150 },
-            ['armour'] = { label = 'Bulletproof Vest', price = 225 },
+            ['earings'] = { label = 'Earings', price = 100 },
+            ['bong'] = { label = 'Bong', price = 50 },
+            ['watch'] = { label = 'Watch', price = 90 },
+            ['gold_watch'] = { label = 'Gold Watch', price = 350 },
+            ['gold_bracelet'] = { label = 'Gold Bracelet', price = 250 },
+            ['necklace'] = { label = 'Necklace', price = 150 },
+            ['pogo'] = { label = 'Art Piece', price = 400 },
+            ['romantic_book'] = { label = 'Romantic Book', price = 15 },
+            ['diamond'] = { label = 'Diamond', price = 700 },
+            ['gold'] = { label = 'Gold Nuggets', price = 400 },
+            ['emerald'] = { label = 'Emerald', price = 500 },
+            ['gold_bar'] = { label = 'Gold Bar', price = 600 },
             -- Add & remove items here as desired
             -- Be sure to follow the same format as above
         },
